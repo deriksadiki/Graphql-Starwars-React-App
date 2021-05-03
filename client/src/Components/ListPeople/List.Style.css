@@ -1,0 +1,98 @@
+body{
+    background-color: #F7F7F7;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #F7F7F7;
+  }
+  
+.listBody{
+    height: 75vh;
+    overflow-y: scroll;
+    width: 100%;
+    position: absolute;
+    padding-bottom: 1.5vh;
+}
+
+.listCard:hover{
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,0.2);
+}
+
+.listCard{
+    margin-top: 5vh;
+    background-color: white;
+    width: 40%;
+    height: 12vh;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.2);
+    margin-left: 20%;
+}
+
+.cardColorSelected{
+    transition: 300ms;
+    position: absolute;
+    background-color: #159FFF;
+    height: 100%;
+    width: 2.4%;
+    position: relative;   
+}
+
+.cardColor{
+    transition: 300ms;
+    position: absolute;
+    background-color: #159FFF;
+    height: 100%;
+    width: 1%;
+    position: relative;
+}
+
+.cardHeader{
+    color: #777777;
+    font-weight: bold;
+    margin-left: 25px;
+    position: relative;
+    margin-top: -60px;
+    
+}
+
+.cardView{
+    font-size: 18px;
+    font-weight: bold;
+    color: #159FFF;
+    float: right;
+    margin-right: 20px;
+    position: relative;
+}
+
+.cardBody{
+    font-size: 13px;
+    color: #777777;
+    padding-top: 2vh;
+    margin-left: 25px;
+}
+
+.cardMass{
+    float: right;
+    margin-right: 20px;
+}
+
+.cardHeight{
+    float: right;
+    margin-right: 20px;
+}
+
+.pagination{
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    margin-left: 66px;
+    font-size: 16px;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.2);
+}

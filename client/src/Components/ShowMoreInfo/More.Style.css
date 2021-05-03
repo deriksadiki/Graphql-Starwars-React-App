@@ -1,0 +1,53 @@
+
+.card{
+    margin-top: 5vh;
+    margin-right: 2vw;
+    float: right;
+    background-color: white;
+    width: 30%;
+    height: 75vh;
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.2);
+}
+
+.bottomline{
+    background-color: #159FFF;
+    height: 2vh;
+    position: absolute;
+    width: 30%;
+    bottom: 6vh;
+}
+
+.headertxt{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.headerText{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.textHeader{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.fildName {
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+table{
+    margin-left: 20px;
+}
+
+
+.fildValue {
+    font-weight: bold;
+    
+}
